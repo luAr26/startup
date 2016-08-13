@@ -2,9 +2,12 @@ doctype html
 html(lang="en")
   head
     title= title
+    link(rel="stylesheet", href="css/main.css")
   body
     h1 Welcome to my home page.
     if usePug
       p Thank you for using pug.
     else
       p You better be starting to use pug! :>
+
+    script(src="js/main.js")
