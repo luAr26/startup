@@ -1,0 +1,19 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luAr26/startup.git"
+  },
+  "author": "luAr26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luAr26/startup/issues"
+  },
+  "homepage": "https://github.com/luAr26/startup#readme"
+}
