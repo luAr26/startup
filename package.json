@@ -15,5 +15,33 @@
   "bugs": {
     "url": "https://github.com/luAr26/startup/issues"
   },
-  "homepage": "https://github.com/luAr26/startup#readme"
+  "homepage": "https://github.com/luAr26/startup#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-busboy": "0.0.2",
+    "connect-cors": "^0.5.6",
+    "connect-redis": "^3.1.0",
+    "connect-timeout": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
+    "helmet": "^2.1.2",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "pug": "^2.0.0-beta5",
+    "response-time": "^2.3.1",
+    "serve-favicon": "^2.3.0",
+    "serve-index": "^1.8.0",
+    "st": "^1.2.0",
+    "vhost": "^3.0.2"
+  }
 }
