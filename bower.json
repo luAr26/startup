@@ -1,0 +1,23 @@
+{
+  "name": "startup",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "luAr26"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/luAr26/startup",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.2.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

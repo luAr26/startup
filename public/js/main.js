@@ -1,4 +1,4 @@
-(function () {
+(function ($) {
   'use strict';
-  console.log('works');
-}());
+  console.log('START HERE!');
+}(jQuery));

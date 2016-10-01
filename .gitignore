@@ -1,1 +1,5 @@
 node_modules
+.sass-cache
+public/libs
+bower_templates
+notes.txt

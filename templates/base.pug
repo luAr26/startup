@@ -1,0 +1,28 @@
+include config/config
+doctype
+head
+  block metatags
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="author" content="luAr26")
+
+  title
+    block title
+
+  // Stylesheets
+  if googleFont
+    link(href="https://fonts.googleapis.com/css?family=" + googleFont rel="stylesheet")
+  if dev
+    link(rel="stylesheet" href="http://basehold.it/6/255/42/85/0.4")
+  link(rel="stylesheet" href="css/startup.min.css")
+
+body
+  block content
+
+  if jQuery
+    script(src="libs/jquery/dist/jquery.min.js")
+  script(src="libs/bootstrap-sass/assets/javascripts/bootstrap.js")
+  script(src="js/startup.min.js")
+  if dev
+    script(src="http://localhost:35729/livereload.js")

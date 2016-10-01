@@ -1,13 +1,33 @@
-doctype html
-html(lang="en")
-  head
-    title= title
-    link(rel="stylesheet", href="css/main.css")
-  body
-    h1 Welcome to my home page.
-    if usePug
-      p Thank you for using pug.
-    else
-      p You better be starting to use pug! :>
+extends base
 
-    script(src="js/main.js")
+append metatags
+  meta(name="description" content="Index page for the HTML startup template.")
+
+block title
+  | #{title}
+
+//- Append, repend e.g. block prepend content
+block content
+  .container
+    .row
+      .col-md-12
+        h3 Starter template
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

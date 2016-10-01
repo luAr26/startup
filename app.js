@@ -29,14 +29,18 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(logger('dev'));
 app.use(express.static('public'));
-app.use(favicon(path.join('public', 'img', 'favicon.ico')));
+app.use(favicon(path.join('public', 'images', 'favicon.ico')));
 
 /*
  * ROUTES
  */
 
-app.get('/', function (req, res, next) {
+app.get('/', function (req, res) {
   res.render('index', {title: 'Startup', usePug: true});
+});
+
+app.get('/about', function (req, res) {
+  res.render('about');
 });
 
 /*
